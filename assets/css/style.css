@@ -13,6 +13,10 @@ body{
     color: black;
 }
 
+.active{
+    border-bottom: 5px solid black;
+}
+
 .app-card{
     background: white;
     padding: 10px 15px;
