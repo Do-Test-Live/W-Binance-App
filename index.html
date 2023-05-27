@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <title>Basic Bootstrap Frontend</title>
+    <title>APP</title>
     <link href="assets/vendor/Bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
     <link href="assets/vendor/FontAwesome/css/all.min.css" rel="stylesheet"/>
     <link href="assets/css/style.css" rel="stylesheet"/>
@@ -25,19 +25,19 @@
             <div class="app-card">
                 <div class="row">
                     <div class="col-6">
-                        <i class="fa-solid fa-eye"></i> 總資產
+                        <p class="app-paragraph"><i class="fa-solid fa-eye"></i> &nbsp;總資產</p>
                     </div>
                     <div class="col-6 text-end">
-                        <i class="fa-solid fa-file-circle-xmark"></i>
+                        <img alt="" class="img-fluid" src="assets/images/icons/time.png" style="max-width: 15px"/>
                     </div>
                     <div class="col-12">
-                        0.00054739
+                        <h4 class="app-title">0.00054739</h4>
                     </div>
                     <div class="col-12">
-                        = HKD 113.15
+                        <p class="app-paragraph-2">= HKD 113.15</p>
                     </div>
                     <div class="col-4">
-                        <button class="btn btn-primary w-100" type="button">儲值</button>
+                        <button class="btn btn-primary active w-100" type="button">儲值</button>
                     </div>
                     <div class="col-4">
                         <button class="btn btn-primary w-100" type="button">提現</button>
@@ -68,7 +68,8 @@
                     </div>
                 </div>
 
-                <div class="alert alert-secondary alert-dismissible fade show ms-2 me-2" role="alert" style="padding-right: 5px">
+                <div class="alert alert-secondary alert-dismissible fade show ms-2 me-2" role="alert"
+                     style="padding-right: 5px">
                     <div class="row">
                         <div class="col-8">
                             <strong>資金帳戶</strong><br/>
@@ -76,7 +77,8 @@
                         </div>
                         <div class="col-4 text-end">
                             <img alt="" class="img-fluid app-nav-icon" src="assets/images/icons/waller-top.png"/>
-                            <i aria-label="Close" class="fa-solid fa-circle-xmark ms-2 mt-4 mb-4" data-bs-dismiss="alert"></i>
+                            <i aria-label="Close" class="fa-solid fa-circle-xmark ms-2 mt-4 mb-4"
+                               data-bs-dismiss="alert"></i>
                         </div>
                     </div>
                 </div>
@@ -95,37 +97,37 @@
 
                 <div class="row mt-3 app-balance-card">
                     <div class="col-1">
-
+                        <img alt="" class="img-fluid" src="assets/images/usdt.png"/>
                     </div>
                     <div class="col-6">
-                        USDT<br/>
+                        <b>USDT</b><br/>
                         TetherUS<br/>
                         可用<br/>
-                        14.44<br/>
+                        <b>14.44</b><br/>
                     </div>
                     <div class="col-5 text-end">
-                        14.44<br/>
+                        <b>14.44</b><br/>
                         0.00054697 BTC<br/>
                         凍結資產<br/>
-                        0.00
+                        <b>0.00</b>
                     </div>
                 </div>
 
                 <div class="row app-balance-card mb-5">
                     <div class="col-1">
-
+                        <img alt="" class="img-fluid" src="assets/images/busd.png"/>
                     </div>
                     <div class="col-6">
-                        BUSD<br/>
+                        <b>BUSD</b><br/>
                         BUSD<br/>
                         可用<br/>
-                        0.01099552
+                        <b>0.01099552</b>
                     </div>
                     <div class="col-5 text-end">
-                        0.01099552<br/>
+                        <b>0.01099552</b><br/>
                         0.00000042 BTC<br/>
                         凍結資產<br/>
-                        0.00
+                        <b>0.00</b>
                     </div>
                 </div>
             </div>
@@ -157,8 +159,8 @@
                         </p>
                     </div>
                     <div class="col-2 mx-auto text-center">
-                        <img alt="" class="img-fluid app-footer-icon" src="assets/images/icons/Wallets.png"/>
-                        <p>
+                        <img alt="" class="img-fluid app-footer-icon" src="assets/images/icons/Wallets-2.png"/>
+                        <p style="color: #fac629">
                             資金
                         </p>
                     </div>

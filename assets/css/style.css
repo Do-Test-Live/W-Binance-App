@@ -1,5 +1,26 @@
+@font-face {
+    src: url("../fonts/DIN.ttf");
+    font-family: 'DIN';
+}
+
+@font-face {
+    src: url("../fonts/DIN-Black.ttf");
+    font-family: 'DIN-Black';
+}
+
+@font-face {
+    src: url("../fonts/DIN-Bold.ttf");
+    font-family: 'DIN-Bold';
+}
+
+@font-face {
+    src: url("../fonts/DIN-Medium.ttf");
+    font-family: 'DIN-Medium';
+}
+
 body{
     background: #5c636a;
+    font-family: 'DIN',sans-serif;
 }
 
 .main{
@@ -14,7 +35,7 @@ body{
 }
 
 .active{
-    border-bottom: 5px solid black;
+    border-bottom: 5px solid #fac629;
 }
 
 .app-card{
@@ -50,4 +71,31 @@ body{
 
 .app-footer-icon{
     max-width: 25px;
+}
+
+.app-paragraph{
+    font-size: 14px;
+}
+
+.app-title{
+    font-size: 25px;
+    font-family: 'DIN-Bold',sans-serif;
+    margin-bottom: 15px;
+}
+
+.app-paragraph-2{
+    font-size: 13px;
+    font-family: 'DIN',sans-serif;
+}
+
+.btn-primary{
+    background: #ebecf0;
+    border: 1px solid #ebecf0;
+    color: black;
+}
+
+.btn-primary:hover, .btn-primary.active{
+    background: #fac629;
+    border: 1px solid #fac629;
+    color: black;
 }
