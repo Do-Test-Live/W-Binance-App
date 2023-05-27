@@ -9,7 +9,164 @@
     <link href="assets/css/style.css" rel="stylesheet"/>
 </head>
 <body>
-<h1>Hello, world!</h1>
+<div class="container">
+    <div class="d-flex justify-content-center">
+        <div class="main">
+            <nav class="nav">
+                <a class="nav-link" href="#">總覽</a>
+                <a class="nav-link" href="#">現貨</a>
+                <a class="nav-link active" href="#">資金帳戶</a>
+                <a class="nav-link" href="#">資金帳戶</a>
+                <a class="nav-link" href="#">槓桿</a>
+                <a class="nav-link" href="#">合約</a>
+                <a class="nav-link" href="#">理財</a>
+            </nav>
+
+            <div class="app-card">
+                <div class="row">
+                    <div class="col-6">
+                        <i class="fa-solid fa-eye"></i> 總資產
+                    </div>
+                    <div class="col-6 text-end">
+                        <i class="fa-solid fa-file-circle-xmark"></i>
+                    </div>
+                    <div class="col-12">
+                        0.00054739
+                    </div>
+                    <div class="col-12">
+                        = HKD 113.15
+                    </div>
+                    <div class="col-4">
+                        <button class="btn btn-primary w-100" type="button">儲值</button>
+                    </div>
+                    <div class="col-4">
+                        <button class="btn btn-primary w-100" type="button">提現</button>
+                    </div>
+                    <div class="col-4">
+                        <button class="btn btn-primary w-100" type="button">轉帳</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="app-container mb-5 pb-5">
+                <div class="row text-center pt-2">
+                    <div class="col-3">
+                        <img alt="" class="img-fluid app-nav-icon" src="assets/images/icons/1.png"/>
+                        <p>C2C</p>
+                    </div>
+                    <div class="col-3">
+                        <img alt="" class="img-fluid app-nav-icon" src="assets/images/icons/2.png"/>
+                        <p>支付</p>
+                    </div>
+                    <div class="col-3">
+                        <img alt="" class="img-fluid app-nav-icon" src="assets/images/icons/3.png"/>
+                        <p>禮品卡</p>
+                    </div>
+                    <div class="col-3">
+                        <img alt="" class="img-fluid app-nav-icon" src="assets/images/icons/4.png"/>
+                        <p>幣安礦池</p>
+                    </div>
+                </div>
+
+                <div class="alert alert-secondary alert-dismissible fade show ms-2 me-2" role="alert" style="padding-right: 5px">
+                    <div class="row">
+                        <div class="col-8">
+                            <strong>資金帳戶</strong><br/>
+                            學習如何使用資金帳戶
+                        </div>
+                        <div class="col-4 text-end">
+                            <img alt="" class="img-fluid app-nav-icon" src="assets/images/icons/waller-top.png"/>
+                            <i aria-label="Close" class="fa-solid fa-circle-xmark ms-2 mt-4 mb-4" data-bs-dismiss="alert"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row ps-2 pe-2">
+                    <div class="col-12">
+                        可用餘額
+                    </div>
+                    <div class="col-6">
+                        <i class="fa-solid fa-circle-check text-warning"></i> 隱藏0資產
+                    </div>
+                    <div class="col-6 text-end">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+
+                <div class="row mt-3 app-balance-card">
+                    <div class="col-1">
+
+                    </div>
+                    <div class="col-6">
+                        USDT<br/>
+                        TetherUS<br/>
+                        可用<br/>
+                        14.44<br/>
+                    </div>
+                    <div class="col-5 text-end">
+                        14.44<br/>
+                        0.00054697 BTC<br/>
+                        凍結資產<br/>
+                        0.00
+                    </div>
+                </div>
+
+                <div class="row app-balance-card mb-5">
+                    <div class="col-1">
+
+                    </div>
+                    <div class="col-6">
+                        BUSD<br/>
+                        BUSD<br/>
+                        可用<br/>
+                        0.01099552
+                    </div>
+                    <div class="col-5 text-end">
+                        0.01099552<br/>
+                        0.00000042 BTC<br/>
+                        凍結資產<br/>
+                        0.00
+                    </div>
+                </div>
+            </div>
+
+            <div class="app-footer fixed-bottom mt-5">
+                <div class="row">
+                    <div class="col-2 mx-auto text-center">
+                        <img alt="" class="img-fluid app-footer-icon" src="assets/images/icons/Home.png"/>
+                        <p>
+                            首頁
+                        </p>
+                    </div>
+                    <div class="col-2 mx-auto text-center">
+                        <img alt="" class="img-fluid app-footer-icon" src="assets/images/icons/Markets.png"/>
+                        <p>
+                            行情
+                        </p>
+                    </div>
+                    <div class="col-2 mx-auto text-center">
+                        <img alt="" class="img-fluid app-footer-icon" src="assets/images/icons/Trades.png"/>
+                        <p>
+                            交易
+                        </p>
+                    </div>
+                    <div class="col-2 mx-auto text-center">
+                        <img alt="" class="img-fluid app-footer-icon" src="assets/images/icons/Futures.png"/>
+                        <p>
+                            合約
+                        </p>
+                    </div>
+                    <div class="col-2 mx-auto text-center">
+                        <img alt="" class="img-fluid app-footer-icon" src="assets/images/icons/Wallets.png"/>
+                        <p>
+                            資金
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <script src="assets/vendor/Bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="assets/vendor/jQuery/jquery-3.6.4.min.js"></script>

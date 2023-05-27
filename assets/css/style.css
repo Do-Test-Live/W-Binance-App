@@ -1,0 +1,49 @@
+body{
+    background: #5c636a;
+}
+
+.main{
+    max-width: 500px;
+    background: #f5f5f5;
+    height: 100vh;
+}
+
+.nav-link{
+    font-size: 12px;
+    color: black;
+}
+
+.app-card{
+    background: white;
+    padding: 10px 15px;
+    border-radius: 15px 15px 0 0;
+}
+
+.app-container{
+    background: white;
+    margin-top: 5px;
+}
+
+.app-nav-icon{
+    max-width: 50px;
+}
+
+.app-balance-card{
+    border-bottom: 1px solid black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+}
+
+.app-footer{
+    background: white;
+    height: 80px;
+    padding-top: 15px;
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+}
+
+.app-footer-icon{
+    max-width: 25px;
+}
